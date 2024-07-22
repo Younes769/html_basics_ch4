@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-main{
+    background-color: rgb(40, 38, 38);
+}
+.header-main h1{
+    display: inline;
+    color: yellow;
+}
+#logo{
+    height: 50px; 
+    
+    
+}
+.header-main img{
+    vertical-align: middle;
+}
+
+.header-main nav ul li {
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    padding: 10px;
+}
+nav ul li a:hover{
+    color: rgb(255, 251, 0);
+}
+.first{
+    background-color: wheat;
+
+}
+section:nth-of-type(odd) {
+    background-color: burlywood;
+}
+section:nth-of-type(even) {
+    background-color: coral;}
+section img {
+    display:block;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 2px;
+}
+form {
+    padding: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],form input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+form button{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    
+}
+footer{
+    background-color: rgb(40, 38, 38);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
