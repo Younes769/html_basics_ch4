@@ -23,6 +23,7 @@
 
 .header-main nav ul li {
     display: inline;
+    
 }
 nav ul li a{
     color: white;
@@ -31,6 +32,7 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(255, 251, 0);
 }
+
 .first{
     background-color: wheat;
 
